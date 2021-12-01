@@ -31,10 +31,10 @@ async def _(bot: Client, cmd: command):
 PLAYMSG_BUTTONS = InlineKeyboardMarkup(
     [
             [
-                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Superior_Support"),
-                InlineKeyboardButton("☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Superior_Bots"),
+                InlineKeyboardButton("GRUP ⚡", url=f"https://t.me/YasakKrallik"),
+                InlineKeyboardButton("☑️ KANAL", url=f"https://t.me/yalnzadmlr"),
             ],
-            [InlineKeyboardButton("🗑 ᴄʟᴏsᴇ", callback_data="close")],
+            [InlineKeyboardButton("🗑 KAPAT", callback_data="close")],
         ]
 )
 
