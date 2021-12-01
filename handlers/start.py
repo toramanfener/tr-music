@@ -35,31 +35,31 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/899cf677d90a10b907a15.png",
-        caption=f"""**ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜꜱɪᴄ ʙᴏᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴍᴏɴɢᴏᴅʙ ᴡɪᴛʜ ᴀɪ ꜰᴇᴀᴛᴜʀᴇꜱ ...
-💞 ᴛʜᴀɴᴋꜱ ꜰᴏʀ  
-ᴜꜱɪɴɢ [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
+        caption=f"""**@Yasakakrallik icin özel yapılmış Muzin Botudur olası durumlarda Muzik Asistanını Elle Eklemeniz Gerekebilir Keyifli Muzik Dinlemeler ...
+💞 Asistana Burdan Ulaşabilirsiniz 
+[Asistan Player](t.me/TubidyMusicAsistanPlayer) ...
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "➕ ❰ BENİ GRUBA EKLE ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/SUPERIOR_BOTS/160"
+                        "YARDIM VE KOMUTLAR", url=f"https://t.me/SUPERIOR_BOTS/160"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/itsunknown-12/Zaid-Vc-Player"
+                        "SAHİP", url="https://t.me/Dnztrmn"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📢 RESMİ KANAL", url=f"https://t.me/yalnzadmlr"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🇮🇳", url="https://t.me/{ZAID_SUPPORT}"
+                        "RESMİ GRUP 🇹🇷", url="https://t.me/YasakKrallik"
                     )
                 ]
                 
@@ -72,12 +72,12 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/a45bd27a16f92285120c8.png",
-        caption=f"""ᴛʜᴀɴᴋꜱ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ 🔥♥️""",
+        caption=f"""EKLEDİĞİN İÇİN TEŞEKKÜRLER 🔥♥️""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴊᴏɪɴ ʜᴇʀᴇ ᴀɴᴅ sᴜᴘᴘᴏʀᴛ 💞", url=f"https://t.me/superior_Support")
+                        "💥 YARDIM VE KOMUTLAR 💞", url=f"https://t.me/tubidybotdestek")
                 ]
             ]
         ),
@@ -93,7 +93,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 ᴄʟɪᴄᴋ ᴍᴇ ᴛᴏ ɢᴇᴛ ʀᴇᴘᴏ 💞", url=f"https://github.com/itsunknown-12/Zaid-Vc-Player")
+                        "💥 SOHBET GRUBUNA GİTMEK İCİN TIKLA 💞", url=f"https://t.me/Dnztrmn")
                 ]
             ]
         ),
